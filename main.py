@@ -37,7 +37,6 @@ search=driver.find_element(By.ID, "ohrmList_chkSelectRecord_25")
 search.click()
 search = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="kils"]')))
 search.click()
-# search.send_keys("Anees")
 
 
 print("\n")
